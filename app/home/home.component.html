@@ -1,0 +1,47 @@
+<div class="parent">
+<div class="nav">
+  <nav>
+    <div class="nav-left">
+      <a href="dashboard.html" class="nbutton">HOME</a>
+      <a href="create_form.html" class="nbutton">CREATE</a>
+      <a href="#services" class="nbutton">SUMMARY</a>
+      <a href="facebook.com" class="user">
+        <img src="/assets/User.png" alt="User" width="50px">
+      </a>
+    </div>
+
+    <div class="menu">
+      <button class="create" onclick="window.location.href='create_form.html'">
+        <img src="/assets/Add.png" alt="Add">CREATE
+      </button>
+      <button class="summary" onclick="window.location.href='index.html'">
+        <img src="/assets/Summary.png" alt="Summary">SUMMARY
+      </button>
+    </div>
+  </nav>
+</div>
+
+<!--calendar--------------------------------------------------------------------------->
+<p class="calendar">CALENDAR OF ACTIVITIES</p>
+<div class="vertical-slider-container">
+  <button class="vertical-nav-button up" onclick="prevVerticalSlide()">
+    <img src="/assets/up.png" alt="up" width="10px">
+  </button>
+  <div class="vertical-slider" id="verticalSlider">
+    <div class="vertical-slide-set">
+      <button class="vertical-slide" onclick="handleButtonClick(0)">JANUARY</button>
+      <button class="vertical-slide" onclick="handleButtonClick(1)">FEBRUARY</button>
+      <button class="vertical-slide" onclick="handleButtonClick(2)">MARCH</button>
+      <button class="vertical-slide" onclick="handleButtonClick(3)">APRIL</button>
+    </div>
+    <div class="vertical-slide-set">
+      <button class="vertical-slide" onclick="handleButtonClick(4)">MAY</button>
+      <button class="vertical-slide" onclick="handleButtonClick(5)">JUNE</button>
+      <button class="vertical-slide" onclick="handleButtonClick(6)">JULY</button>
+      <button class="vertical-slide" onclick="handleButtonClick(7)">AUGUST</button>
+    </div>
+    <div class="vertical-slide-set">
+      <button class="vertical-slide" onclick="handleButtonClick(8)">SEPTEMBER</button>
+      <button class="vertical-slide" onclick="handleButtonClick(9)">OCTOBER</button>
+      <button class="vertical-slide" onclick="handleButtonClick(10)">NOVEMBER</button>
+    </div>
